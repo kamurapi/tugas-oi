@@ -13,8 +13,8 @@ int main()
     }
     else {
         while ( getline (myfile,line) ){
-            cout << line;
-            printf("   [line : %d]\n",numberline);
+            printf("[line : %d]       ",numberline);
+              cout <<line << '\n';
             numberline++;
         }
     }
